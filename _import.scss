@@ -1,0 +1,84 @@
+// Colors
+
+$red:#F44336;
+$dred:#D32F2F;
+$lred:#E57373;
+
+$pink:#E91E63;
+
+$dviolet:#7B1FA2;
+$violet:#9C27B0;
+$lviolet:#BA68C8;
+
+$dblue:#303F9F;
+$blue:#3B50CE;
+$lblue:#03A9F4;
+
+$green:#8BC34A;
+$dgreen:darken($green,10%);
+$lgreen:lighten($green,10%);
+
+$lyellow:#FFF176;
+$yellow:#FFEB3B;
+$dyellow:#FBC02D;
+
+$lorange:#FFB74D;
+$orange:#FF9800;
+$dorange:#F57C00;
+
+
+// Font
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+$font:"Roboto",Helvetica,sans-serif;
+
+// Mixins
+
+@mixin transition($in) {
+	transition:$in;
+	-webkit-transition:$in;
+	-moz-transition:$in;
+	-o-transition:$in;
+	-ms-transition:$in;
+}
+@mixin box-shadow($in) {
+	box-shadow:$in;
+	-webkit-box-shadow:$in;
+	-moz-box-shadow:$in;
+	-o-box-shadow:$in;
+	-ms-box-shadow:$in;
+}
+@mixin transform($in) {
+	transform:$in;
+	-webkit-transform:$in;
+	-moz-transform:$in;
+	-o-transform:$in;
+	-ms-transform:$in;
+}
+@mixin transform-style($in) {
+	transform-style:$in;
+	-webkit-transform-style:$in;
+	-moz-transform-style:$in;
+	-o-transform-style:$in;
+	-ms-transform-style:$in;
+}
+@mixin perspective($in) {
+	perspective:$in;
+	-webkit-perspective:$in;
+	-moz-perspective:$in;
+	-o-perspective:$in;
+	-ms-perspective:$in;
+}
+@mixin perspective-origin($in) {
+	perspective-origin:$in;
+	-webkit-perspective-origin:$in;
+	-moz-perspective-origin:$in;
+	-o-perspective-origin:$in;
+	-ms-perspective-origin:$in;
+}
+@mixin transform-origin($in) {
+	transform-origin:$in;
+	-webkit-transform-origin:$in;
+	-moz-transform-origin:$in;
+	-o-transform-origin:$in;
+	-ms-transform-origin:$in;
+}
